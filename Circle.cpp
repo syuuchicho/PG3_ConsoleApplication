@@ -7,6 +7,11 @@ Circle::Circle()
 	Draw();
 }
 
+Circle::~Circle()
+{
+
+}
+
 void Circle::Size()
 {
 	product = radius * 3.14;

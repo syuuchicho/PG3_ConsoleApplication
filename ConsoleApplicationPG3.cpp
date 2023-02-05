@@ -8,7 +8,10 @@ int main()
     Rectangle* rectangle = new Rectangle;
     Circle* circle = new Circle;
 
+    delete rectangle;
+    delete circle;
 
+    return 0;
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー

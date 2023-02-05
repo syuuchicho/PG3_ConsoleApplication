@@ -7,6 +7,12 @@ Rectangle::Rectangle()
 	Size();
 	Draw();
 }
+
+Rectangle::~Rectangle()
+{
+
+}
+
 void Rectangle::Size()
 {
 	product = width * height;
