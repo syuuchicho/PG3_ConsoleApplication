@@ -4,8 +4,6 @@ Rectangle::Rectangle()
 {
 	height = 5;
 	width = 6;
-	Size();
-	Draw();
 }
 
 Rectangle::~Rectangle()
@@ -15,7 +13,7 @@ Rectangle::~Rectangle()
 
 void Rectangle::Size()
 {
-	product = width * height;
+	product = height * width;
 }
 
 void Rectangle::Draw()

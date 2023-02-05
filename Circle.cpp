@@ -3,8 +3,6 @@
 Circle::Circle()
 {
 	radius = 4;
-	Size();
-	Draw();
 }
 
 Circle::~Circle()

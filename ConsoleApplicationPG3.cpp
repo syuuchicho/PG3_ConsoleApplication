@@ -8,6 +8,12 @@ int main()
     Rectangle* rectangle = new Rectangle;
     Circle* circle = new Circle;
 
+    rectangle->Size();
+    circle->Size();
+
+    rectangle->Draw();
+    circle->Draw();
+
     delete rectangle;
     delete circle;
 
